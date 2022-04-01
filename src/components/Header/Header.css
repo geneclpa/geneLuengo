@@ -1,0 +1,115 @@
+/*  Header  */
+.header{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: var(--header_height);
+    background-color: var(--second_color);
+    padding: 1rem;
+}
+
+.header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*  Logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > svg{
+    width: 30px;
+    height: 30px;
+    fill: var(--first_color);
+}
+
+.logo > a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: var(--first_color);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.logo > a:hover{ color: var(--white_color); }
+
+
+/*  Menu  */
+.menu_btn{
+    outline: thin solid var(--first_color);
+    border: 0;
+    background-color: var(--second_color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_btn svg{ fill: var(--first_color); }
+
+.menu{
+    position: fixed;
+    left: 0;
+    bottom: var(--header_height);
+    width: 100%;
+    background-color: var(--second_color);
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.menu.is_active{
+    opacity: 1;
+    pointer-events: visible;
+}
+
+.menu a{
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: var(--first_color);
+
+}
+
+.menu a:hover{
+    color: var(--white_color);
+    background-color: var(--first_color);
+}
+
+/*  Media queries  */
+@media screen and (min-width: 576px){
+    .logo > a{ font-size: 1.6rem; }
+}
+
+@media screen and (min-width: 992px){
+    .header{
+        position: sticky;
+        top: 0;
+    }
+
+    .menu_btn{ display: none; }
+
+    .menu{
+        position: static;
+        opacity: 1;
+        pointer-events: visible;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .menu a{ padding: 0 0.6rem; }
+
+    .menu a:last-child{ padding-right: 0; }
+
+    .menu a:hover{ background-color: transparent; }
+}

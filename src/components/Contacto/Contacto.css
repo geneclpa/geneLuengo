@@ -1,0 +1,34 @@
+.contact_card{
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_card > svg{
+    width: 2rem;
+    height: 2rem;
+    fill: var(--first_color);
+}
+
+.contact_card > small{ margin-top: -1rem; }
+
+.contact_card > small a{
+    text-decoration: none;
+    color: var(--black_color);
+}
+
+.contact_card > small a:hover{ text-decoration: underline; }
+
+/*  Media queries  */
+@media screen and (min-width: 768px){
+    .contact_cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
