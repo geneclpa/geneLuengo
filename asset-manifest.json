@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/geneLuengo/static/css/main.e427a3c7.css",
+    "main.js": "/geneLuengo/static/js/main.63fe35fe.js",
+    "static/media/Roboto-Regular.ttf": "/geneLuengo/static/media/Roboto-Regular.03523cf578d69fa92322.ttf",
+    "static/media/Roboto-Bold.ttf": "/geneLuengo/static/media/Roboto-Bold.4f39c5796e60c9d8e732.ttf",
+    "static/media/Roboto-Light.ttf": "/geneLuengo/static/media/Roboto-Light.0cea39826bd36bbfe330.ttf",
+    "static/media/gene_luengo.webp": "/geneLuengo/static/media/gene_luengo.ed8d2bbcc5fdfd753742.webp",
+    "static/media/hero-image.webp": "/geneLuengo/static/media/hero-image.e4889dca8a09de739ca2.webp",
+    "index.html": "/geneLuengo/index.html",
+    "static/media/virgo.svg": "/geneLuengo/static/media/virgo.7de911d147d78e648a734fe77598fb08.svg",
+    "static/media/contact-location.svg": "/geneLuengo/static/media/contact-location.b3e74a00a0746cdb19f8b7807ed110ea.svg",
+    "static/media/contact-email.svg": "/geneLuengo/static/media/contact-email.74a40768941f68f2e81dbb856f03836c.svg",
+    "static/media/loader.svg": "/geneLuengo/static/media/loader.0030caa9174fc0f1483c8505742477f1.svg",
+    "static/media/service-hosting.svg": "/geneLuengo/static/media/service-hosting.7fee83906151db3e642f8888f441355c.svg",
+    "static/media/contact-phone.svg": "/geneLuengo/static/media/contact-phone.32cbc3fac59d3d50499cc4cd69717500.svg",
+    "static/media/service-code.svg": "/geneLuengo/static/media/service-code.52deed7675479ee1920e3ba19517abb0.svg",
+    "static/media/service-design.svg": "/geneLuengo/static/media/service-design.24b007f64a91c87ea948b8c11928a77e.svg",
+    "static/media/menu-close.svg": "/geneLuengo/static/media/menu-close.9a79ce85e261dfde2a87a7f72f498d72.svg",
+    "static/media/menu-bars.svg": "/geneLuengo/static/media/menu-bars.677454ba76dc0359e16d33839e4dbb28.svg",
+    "main.e427a3c7.css.map": "/geneLuengo/static/css/main.e427a3c7.css.map",
+    "main.63fe35fe.js.map": "/geneLuengo/static/js/main.63fe35fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e427a3c7.css",
+    "static/js/main.63fe35fe.js"
+  ]
+}
