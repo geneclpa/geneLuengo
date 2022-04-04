@@ -24,7 +24,7 @@ export const Acerca = () => {
                 </Paragraph>
 
                 <Paragraph>
-                    Comenzó todo un mundo completo y facinante de aprendizaje, que al principio lo desarrollé de manera autodidacta, enfocándome en las tecnologías principales del <i>Frontend</i> como lo son:
+                    Comenzó todo un mundo completo y fascinante de aprendizaje, que al principio lo desarrollé de manera autodidacta, enfocándome en las tecnologías principales del <i>Frontend</i> como lo son:
                 </Paragraph>
                 
                 <ul>
@@ -36,7 +36,7 @@ export const Acerca = () => {
 
             <article className='text_lg_right'>
                 <Paragraph>
-                    Luego con la intensión de desarrollar aplicaciones <i>Web</i> con enfoque cliente - servidor, mi ruta de aprendizaje me llevó a agregar las tecnologías principales del <i>Backend</i> como lo son:
+                    Luego con la intención de desarrollar aplicaciones <i>Web</i> con enfoque cliente - servidor, mi ruta de aprendizaje me llevó a agregar las tecnologías principales del <i>Backend</i> como lo son:
                 </Paragraph>
 
                 <ul>
