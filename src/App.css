@@ -31,6 +31,8 @@
     --link_color: #509ee3;
     --title_color: #333;
     --text_color: #222;
+    --error_color: #C0392B;
+    --sucess_color: #198754;
     --font: 'Roboto', sans-serif;
     --max_width: 1200px;
     --header_height: 4rem;

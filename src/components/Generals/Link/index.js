@@ -1,7 +1,7 @@
-export const Link = ({ styleClass, target, href, rel, click, children }) => {
+export const Link = ({ className, target, href, rel, click, children }) => {
     return(
         <a
-            className={styleClass}
+            className={className}
             target={target}
             href={href}
             rel={rel}

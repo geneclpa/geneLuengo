@@ -9,8 +9,8 @@ export const HeroImage = () => {
             <article className='hero_image'>
                 <aside className='hero_image_opacity'>
                     <div className='hero_image_content'>
-                        <Title type='h2' classStyle='hero_image_title'>Bienvenidos a mi<br />sitio web</Title>
-                        <Link styleClass='btn' href='#contacto'>Contáctame</Link>
+                        <Title type='h2' className='hero_image_title'>Bienvenidos a mi<br />sitio web</Title>
+                        <Link className='btn' href='#contacto'>Contáctame</Link>
                     </div>
                 </aside>
             </article>

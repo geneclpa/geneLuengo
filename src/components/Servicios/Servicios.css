@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.service_card svg{
+.service_card img{
     fill: var(--first_color);
     margin-bottom: 1.25rem;
 }

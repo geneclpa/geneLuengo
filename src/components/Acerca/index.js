@@ -4,6 +4,7 @@ import photo from '../../assets/images/img/gene_luengo.webp';
 import { Paragraph } from '../Generals/Paragraph';
 import { Link } from '../Generals/Link';
 import { Title } from '../Generals/Title';
+import { Image } from '../Generals/Image';
 
 export const Acerca = () => {
     return(
@@ -56,7 +57,7 @@ export const Acerca = () => {
 
             <article className='text_center text_xl_center'>
                 <Link
-                    styleClass='btn'
+                    className='btn'
                     target='_blank'
                     rel='noreferrer noopener'
                     href='https://www.linkedin.com/in/gene-kober-luengo-carmona-b7339534/'>
@@ -65,7 +66,11 @@ export const Acerca = () => {
             </article>
 
             <article>
-                <img className='gray_scale' src={photo} alt='Gene Luengo - Programador web' title='Gene Luengo - Programador Web' />
+                <Image
+                    className='gray_scale'
+                    src={photo}
+                    alt='Gene Luengo - Programador web'
+                    title='Gene Luengo - Programador Web' />
             </article>
         </section>
     );

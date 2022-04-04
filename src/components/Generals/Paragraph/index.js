@@ -1,5 +1,5 @@
-export const Paragraph = ({ children }) => {
+export const Paragraph = ({ id, className, children }) => {
     return(
-        <p>{children}</p>
+        <p id={id} className={className}>{children}</p>
     );
 };
