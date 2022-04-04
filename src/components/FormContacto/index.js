@@ -88,9 +88,13 @@ export const FormContacto = () => {
                 value='ENVIAR MENSAJE'
             />
             
-            {loading && <img src={loaderImg} alt='Loader activo' title='Loader activo' />}
+            {loading && 
+                <div className='contact_form_loader text_center'>
+                    <img src={loaderImg} alt='Loader activo' title='Loader activo' />
+                </div>
+            }
             
-            {response && <Paragraph className='success'>El mensaje ha sido enviado correctamente</Paragraph>}
+            {response && <Paragraph className='success'>El mensaje ha sido enviado correctamente</Paragraph> }
         </form>
     );
 };
