@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/geneLuengo/static/css/main.e427a3c7.css",
-    "main.js": "/geneLuengo/static/js/main.e34e4400.js",
+    "main.css": "/geneLuengo/static/css/main.f93b0fd1.css",
+    "main.js": "/geneLuengo/static/js/main.baea5026.js",
     "static/media/Roboto-Regular.ttf": "/geneLuengo/static/media/Roboto-Regular.03523cf578d69fa92322.ttf",
     "static/media/Roboto-Bold.ttf": "/geneLuengo/static/media/Roboto-Bold.4f39c5796e60c9d8e732.ttf",
     "static/media/Roboto-Light.ttf": "/geneLuengo/static/media/Roboto-Light.0cea39826bd36bbfe330.ttf",
@@ -18,11 +18,11 @@
     "static/media/service-design.svg": "/geneLuengo/static/media/service-design.24b007f64a91c87ea948b8c11928a77e.svg",
     "static/media/menu-close.svg": "/geneLuengo/static/media/menu-close.9a79ce85e261dfde2a87a7f72f498d72.svg",
     "static/media/menu-bars.svg": "/geneLuengo/static/media/menu-bars.677454ba76dc0359e16d33839e4dbb28.svg",
-    "main.e427a3c7.css.map": "/geneLuengo/static/css/main.e427a3c7.css.map",
-    "main.e34e4400.js.map": "/geneLuengo/static/js/main.e34e4400.js.map"
+    "main.f93b0fd1.css.map": "/geneLuengo/static/css/main.f93b0fd1.css.map",
+    "main.baea5026.js.map": "/geneLuengo/static/js/main.baea5026.js.map"
   },
   "entrypoints": [
-    "static/css/main.e427a3c7.css",
-    "static/js/main.e34e4400.js"
+    "static/css/main.f93b0fd1.css",
+    "static/js/main.baea5026.js"
   ]
 }
